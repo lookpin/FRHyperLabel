@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		264F6A6F1BB2BAC600F57563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264F6A6D1BB2BAC600F57563 /* Main.storyboard */; };
 		264F6A711BB2BAC600F57563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264F6A701BB2BAC600F57563 /* Assets.xcassets */; };
 		264F6A741BB2BAC600F57563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264F6A721BB2BAC600F57563 /* LaunchScreen.storyboard */; };
-		264F6A7D1BB2BB4C00F57563 /* FRHyperLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F6A7C1BB2BB4C00F57563 /* FRHyperLabel.m */; };
+		88629BD42B85EB3E004DDCE1 /* FRHyperLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 88629BD32B85EB3E004DDCE1 /* FRHyperLabel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,6 @@
 		264F6A701BB2BAC600F57563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264F6A731BB2BAC600F57563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		264F6A751BB2BAC600F57563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		264F6A7B1BB2BB4C00F57563 /* FRHyperLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRHyperLabel.h; path = ../../FRHyperLabel/FRHyperLabel.h; sourceTree = "<group>"; };
-		264F6A7C1BB2BB4C00F57563 /* FRHyperLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRHyperLabel.m; path = ../../FRHyperLabel/FRHyperLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88629BD42B85EB3E004DDCE1 /* FRHyperLabel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +44,6 @@
 		264F6A581BB2BAC600F57563 = {
 			isa = PBXGroup;
 			children = (
-				264F6A7E1BB2BB5300F57563 /* FRHyperLabel */,
 				264F6A631BB2BAC600F57563 /* FRHyperLabelDemo */,
 				264F6A621BB2BAC600F57563 /* Products */,
 			);
@@ -83,16 +81,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		264F6A7E1BB2BB5300F57563 /* FRHyperLabel */ = {
-			isa = PBXGroup;
-			children = (
-				264F6A7B1BB2BB4C00F57563 /* FRHyperLabel.h */,
-				264F6A7C1BB2BB4C00F57563 /* FRHyperLabel.m */,
-			);
-			name = FRHyperLabel;
-			path = FRHyperLabelDemo;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +97,9 @@
 			dependencies = (
 			);
 			name = FRHyperLabelDemo;
+			packageProductDependencies = (
+				88629BD32B85EB3E004DDCE1 /* FRHyperLabel */,
+			);
 			productName = FRHyperLabelDemo;
 			productReference = 264F6A611BB2BAC600F57563 /* FRHyperLabelDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -124,6 +115,7 @@
 				TargetAttributes = {
 					264F6A601BB2BAC600F57563 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = DJHPY9N63F;
 					};
 				};
 			};
@@ -132,10 +124,14 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
 			mainGroup = 264F6A581BB2BAC600F57563;
+			packageReferences = (
+				88629BD22B85EB3E004DDCE1 /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = 264F6A621BB2BAC600F57563 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -164,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				264F6A6C1BB2BAC600F57563 /* ViewController.m in Sources */,
-				264F6A7D1BB2BB4C00F57563 /* FRHyperLabel.m in Sources */,
 				264F6A691BB2BAC600F57563 /* AppDelegate.m in Sources */,
 				264F6A661BB2BAC600F57563 /* main.m in Sources */,
 			);
@@ -284,8 +279,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DJHPY9N63F;
 				INFOPLIST_FILE = FRHyperLabelDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinghan.w.FRHyperLabelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -297,8 +295,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DJHPY9N63F;
 				INFOPLIST_FILE = FRHyperLabelDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jinghan.w.FRHyperLabelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -326,6 +327,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		88629BD22B85EB3E004DDCE1 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88629BD32B85EB3E004DDCE1 /* FRHyperLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FRHyperLabel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 264F6A591BB2BAC600F57563 /* Project object */;
 }

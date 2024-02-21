@@ -1,0 +1,295 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabelPackageTests.xctest/Contents/MacOS/FRHyperLabelPackageTests",
+      "productName" : "FRHyperLabelPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FRHyperLabel-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/myunggison/Documents/FRHyperLabel/Sources/FRHyperLabel/FRHyperLabel.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FRHyperLabel",
+      "moduleOutputPath" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.swiftmodule",
+      "objects" : [
+        "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.build/FRHyperLabel.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.build/FRHyperLabel-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "frhyperlabel"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.build/FRHyperLabel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/myunggison/Documents/FRHyperLabel/Sources/FRHyperLabel/FRHyperLabel.swift"
+      ],
+      "tempsPath" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.FRHyperLabelTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/myunggison/Documents/FRHyperLabel/Tests/FRHyperLabelTests/FRHyperLabelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FRHyperLabelTests",
+      "moduleOutputPath" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabelTests.swiftmodule",
+      "objects" : [
+        "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabelTests.build/FRHyperLabelTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "frhyperlabel"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabelTests.build/FRHyperLabelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabelTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/myunggison/Documents/FRHyperLabel/Tests/FRHyperLabelTests/FRHyperLabelTests.swift"
+      ],
+      "tempsPath" : "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabelTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FRHyperLabel" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FRHyperLabel",
+      "-package-name",
+      "frhyperlabel",
+      "-incremental",
+      "-c",
+      "/Users/myunggison/Documents/FRHyperLabel/Sources/FRHyperLabel/FRHyperLabel.swift",
+      "-I",
+      "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/FRHyperLabel.build/FRHyperLabel-Swift.h",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "frhyperlabel",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "FRHyperLabelTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FRHyperLabelTests",
+      "-package-name",
+      "frhyperlabel",
+      "-incremental",
+      "-c",
+      "/Users/myunggison/Documents/FRHyperLabel/Tests/FRHyperLabelTests/FRHyperLabelTests.swift",
+      "-I",
+      "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/myunggison/Documents/FRHyperLabel/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "frhyperlabel",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FRHyperLabel" : [
+
+    ],
+    "FRHyperLabelTests" : [
+      "FRHyperLabel"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  }
+}

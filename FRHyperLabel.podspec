@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FRHyperLabel", "FRHyperLabel/*"
+  s.source_files  = "Sources/FRHyperLabel", "Sources/FRHyperLabel/*"
   s.exclude_files = ".gitignore", "FRHyperLabelDemo/*"
 
   # s.public_header_files = "Classes/**/*.h"

@@ -1,0 +1,4 @@
+module FRHyperLabel {
+    umbrella header "/Users/myunggison/Documents/FRHyperLabel/Sources/FRHyperLabel/FRHyperLabel.h"
+    export *
+}
